@@ -102,8 +102,8 @@ class Audio_Recver(threading.Thread):
 #print(p.get_default_host_api_info())
 #print(p.get_device_count())
 
-sender = Audio_Sender("2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54535) #::1 #2a02:908:1c46:c100:ddde:aec7:f6fa:aa9, 2a02:908:1c46:c100:ddde:aec7:f6fa:aa8
-recver = Audio_Recver("2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54534) #::1
+sender = Audio_Sender("::1", 54535) #::1
+recver = Audio_Recver("::1", 54534) #::1
 sender.start()
 recver.start()
 
