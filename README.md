@@ -8,4 +8,4 @@ This is made for a IPv6-Network, you can change it to IPv4 at the server at line
 Possible errors:
 
 - The Scripts might not work on Linux because they use the module "PyAudio" (https://pypi.org/project/PyAudio/), which uses different audio-packeges and apis from the OS which might be not installed on your System.
-- If you get an error installing "PyAudio", you have to download the .whl files manually. You can get this files at https://pypi.org/project/PyAudio/#files or https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+- If you get an error installing "PyAudio", you have to download the .whl files manually. You can get this files at https://pypi.org/project/PyAudio/#files or https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio .
