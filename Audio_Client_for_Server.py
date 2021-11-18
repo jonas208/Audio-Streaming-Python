@@ -84,8 +84,8 @@ class Audio_Recver(threading.Thread):
         self.stream.close()
         self.audio.terminate()
 
-sender = Audio_Sender("2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54534) #::1
-recver = Audio_Recver("2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54535) #::1
+sender = Audio_Sender("::1", 54534) #::1
+recver = Audio_Recver("::1", 54535) #::1
 sender.start()
 recver.start()
 
